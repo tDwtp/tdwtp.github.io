@@ -6,5 +6,5 @@
 
 [GitHub](https://github.com/marcobambini/gravity)
 [Get Started](guide/README.md)
-[Gravity API](gravity/gapi/README.md)
-[C API](gravity/capi/README.md)
+[Gravity API](gapi/README.md)
+[C API](capi/README.md)
