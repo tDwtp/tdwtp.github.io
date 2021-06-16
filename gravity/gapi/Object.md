@@ -7,23 +7,32 @@
 
 ## Properties
 
-> class
+```swift
+class```
 
-> meta
+```swift
+meta```
 
 ## Methods
 
-```swift bind()```
+```swift
+bind()```
 
-```swift unbind()```
+```swift
+unbind()```
 
-```swift clone()```
+```swift
+clone()```
 
-```swift introspect(extended:Bool, scan_hierarchy:Bool)```
+```swift
+introspect(extended:Bool, scan_hierarchy:Bool)```
 
-```swift methods(extended:Bool, scan_hierarchy:Bool)```
+```swift
+methods(extended:Bool, scan_hierarchy:Bool)```
 
-```swift properties(extended:Bool, scan_hierarchy:Bool)```
+```swift
+properties(extended:Bool, scan_hierarchy:Bool)```
 
-```swift respondTo()```
+```swift
+respondTo()```
 

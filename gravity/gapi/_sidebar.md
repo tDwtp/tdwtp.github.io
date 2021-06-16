@@ -15,9 +15,6 @@
   * [Class](Class.md)
   * [Fibers](Fiber.md)
 
-  * [Overview](README.md)
-  * [Getting Started](quickstart.md)
-
 * OPTIONALS
 
   * [System class](system.md)
