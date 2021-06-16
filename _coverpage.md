@@ -4,8 +4,4 @@
 
 # tDwtp's GitHub-Pages collection
 
-* Simple and lightweight
-* No external dependencies
-* Register based virtual machine
-
-[Get Started](README.md)
+[Gravity documentation](gravity/)
