@@ -1,13 +1,9 @@
-<p align="center">
+<!--p align="center">
 <img src="assets/images/logo.png" height="90px" alt="Gravity Programming Language" title="Gravity Programming Language">
-</p>
+</p-->
 
-# Gravity <small>0.8.0</small>
-> An embeddable programming language.
+# tDwtp's GitHub-Pages collection
 
-* Simple and lightweight
-* No external dependencies
-* Register based virtual machine
-
-[GitHub](https://github.com/marcobambini/gravity)
-[Get Started](README.md)
+[Guide](/gravity/#/guide/)
+[Gravity API](/gravity/#/gapi/)
+[C API](/gravity/#/capi/)
