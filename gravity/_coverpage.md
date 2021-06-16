@@ -4,6 +4,7 @@
 
 # tDwtp's GitHub-Pages collection
 
-[Guide](/gravity/#/guide/)
-[Gravity API](/gravity/#/gapi/)
-[C API](/gravity/#/capi/)
+[GitHub](https://github.com/marcobambini/gravity)
+[Get Started](README.md)
+[Gravity API](gravity/gapi/README.md)
+[C API](gravity/capi/README.md)
