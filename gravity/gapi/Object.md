@@ -8,31 +8,40 @@
 ## Properties
 
 ```swift
-class```
+class
+```
 
 ```swift
-meta```
+meta
+```
 
 ## Methods
 
 ```swift
-bind()```
+bind()
+```
 
 ```swift
-unbind()```
+unbind()
+```
 
 ```swift
-clone()```
+clone()
+```
 
 ```swift
-introspect(extended:Bool, scan_hierarchy:Bool)```
+introspect(extended:Bool, scan_hierarchy:Bool)
+```
 
 ```swift
-methods(extended:Bool, scan_hierarchy:Bool)```
+methods(extended:Bool, scan_hierarchy:Bool)
+```
 
 ```swift
-properties(extended:Bool, scan_hierarchy:Bool)```
+properties(extended:Bool, scan_hierarchy:Bool)
+```
 
 ```swift
-respondTo()```
+respondTo()
+```
 
