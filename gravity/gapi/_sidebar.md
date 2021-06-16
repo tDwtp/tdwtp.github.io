@@ -1,13 +1,5 @@
-* INTRODUCTION
+* Base
 
-  * [Overview](README.md)
-  * [Getting Started](quickstart.md)
-
-* LANGUAGE GUIDE
-
-  * [Syntax](syntax.md)
-  * [Operators](operators.md)
-  * [Types](types.md)
   * [Object](object.md)
   * [Int](int.md)
   * [Float](float.md)
@@ -24,18 +16,13 @@
   * [Control Flow](controlflow.md)
   * [Loops](loop.md)
   * [Fibers](fiber.md)
-  
+
+  * [Overview](README.md)
+  * [Getting Started](quickstart.md)
+
 * OPTIONALS
 
   * [System class](system.md)
   * [Math class](math.md)
   * [File class](file.md)
   * [ENV class](env.md)
-
-* ADVANCED
-
-  * [Embedding](embedding.md)
-  * [Extending](extending.md)
-  * [Introspection](introspection.md)
-  * [Unit test](unittest.md)
-  * [Contributing](contrib.md)
