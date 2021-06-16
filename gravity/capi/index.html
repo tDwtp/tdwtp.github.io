@@ -27,17 +27,17 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-        	let url = 'https://github.com/tdwtp/tdwtp.github.io/edit/master/gravity/capi/' + vm.route.file
-        	let rev = 'rev2'
-        	let version = '0.8.2'
-        	let edit = '<a href="' + url + '">Edit on GitHub</a>\n'
+          let url = 'https://github.com/tdwtp/tdwtp.github.io/edit/master/gravity/capi/' + vm.route.file
+          let rev = 'rev2'
+          let version = '0.8.2'
+          let edit = '<a href="' + url + '">Edit on GitHub</a>\n'
 
-        	return html
-          		+ '\n----\n'
-          		+ '<footer style="color:#999999; font-size:0.9em;">'
-          		+ '<span>Version ' + version + ' (' + rev + ') - </span>'
-          		+ edit
-          		+ '</footer>'
+          return html
+              + '\n----\n'
+              + '<footer style="color:#999999; font-size:0.9em;">'
+              + '<span>Version ' + version + ' (' + rev + ') - </span>'
+              + edit
+              + '</footer>'
           })
         }
       ]
