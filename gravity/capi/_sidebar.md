@@ -1,39 +1,40 @@
-* BY CATEGORY
-  * ...
-* BY FILE
-  * Compiler
-    * [compiler/gravity_ast](cplr-g_ast)
-    * [compiler/gravity_codegen](cplr-g_codegen)
-    * [compiler/gravity_compiler](cplr-g_compiler)
-    * [compiler/gravity_ircode](cplr-g_ircode)
-    * [compiler/gravity_lexer](cplr-g_lexer)
-    * [compiler/gravity_optimizer](cplr-g_optimizer)
-    * [compiler/gravity_parser](cplr-g_parser)
-    * [compiler/gravity_semacheck1](cplr-g_semacheck1)
-    * [compiler/gravity_semacheck2](cplr-g_semacheck2)
-    * [compiler/gravity_token](cplr-g_token)
-    * [compiler/gravity_visitor](cplr-g_visitor)
-    * [compiler/debug_macros](cplr-dbg_macros)
-  * Optionals
-    * [optionals/gravity_opt_env](opt-go_env)
-    * [optionals/gravity_opt_file](opt-go_file)
-    * [optionals/gravity_opt_json](opt-go_json)
-    * [optionals/gravity_opt_math](opt-go_math)
-    * [optionals/gravity_optionals](opt-g_optionals)
-  * Runtime
-    * [runtime/gravity_core](rt-g_core)
-    * [runtime/gravity_vm](rt-g_vm)
-    * [runtime/gravity_vmmacros](rt-g_vmmacros)
-  * Shared
-    * [shared/gravity_array](shrd-g_array)
-    * [shared/gravity_config](shrd-g_config)
-    * [shared/gravity_delegate](shrd-g_delegate)
-    * [shared/gravity_hash](shrd-g_hash)
-    * [shared/gravity_macros](shrd-g_macros)
-    * [shared/gravity_memory](shrd-g_memory)
-    * [shared/gravity_opcodes](shrd-g_opcodes)
-    * [shared/gravity_value](shrd-g_value)
-  * Utils
-    * [utils/gravity_debug](utils-g_debug)
-    * [utils/gravity_json](utils-g_json)
-    * [utils/gravity_utils](utils-g_utils)
+# BY CATEGORY
+* ...
+
+# BY FILE
+* Compiler
+  * [compiler/gravity_ast](cplr-g_ast)
+  * [compiler/gravity_codegen](cplr-g_codegen)
+  * [compiler/gravity_compiler](cplr-g_compiler)
+  * [compiler/gravity_ircode](cplr-g_ircode)
+  * [compiler/gravity_lexer](cplr-g_lexer)
+  * [compiler/gravity_optimizer](cplr-g_optimizer)
+  * [compiler/gravity_parser](cplr-g_parser)
+  * [compiler/gravity_semacheck1](cplr-g_semacheck1)
+  * [compiler/gravity_semacheck2](cplr-g_semacheck2)
+  * [compiler/gravity_token](cplr-g_token)
+  * [compiler/gravity_visitor](cplr-g_visitor)
+  * [compiler/debug_macros](cplr-dbg_macros)
+* Optionals
+  * [optionals/gravity_opt_env](opt-go_env)
+  * [optionals/gravity_opt_file](opt-go_file)
+  * [optionals/gravity_opt_json](opt-go_json)
+  * [optionals/gravity_opt_math](opt-go_math)
+  * [optionals/gravity_optionals](opt-g_optionals)
+* Runtime
+  * [runtime/gravity_core](rt-g_core)
+  * [runtime/gravity_vm](rt-g_vm)
+  * [runtime/gravity_vmmacros](rt-g_vmmacros)
+* Shared
+  * [shared/gravity_array](shrd-g_array)
+  * [shared/gravity_config](shrd-g_config)
+  * [shared/gravity_delegate](shrd-g_delegate)
+  * [shared/gravity_hash](shrd-g_hash)
+  * [shared/gravity_macros](shrd-g_macros)
+  * [shared/gravity_memory](shrd-g_memory)
+  * [shared/gravity_opcodes](shrd-g_opcodes)
+  * [shared/gravity_value](shrd-g_value)
+* Utils
+  * [utils/gravity_debug](utils-g_debug)
+  * [utils/gravity_json](utils-g_json)
+  * [utils/gravity_utils](utils-g_utils)
