@@ -1,44 +1,44 @@
 * INTRODUCTION
 
-  * [Overview](README.md)
-  * [Getting Started](quickstart.md)
+  * [Overview](guide/README.md)
+  * [Getting Started](guide/quickstart.md)
 
 * LANGUAGE GUIDE
 
-  * [Syntax](syntax.md)
-  * [Operators](operators.md)
-  * [Types](types.md)
-  * [Object](object.md)
-  * [Int](int.md)
-  * [Float](float.md)
-  * [String](string.md)
-  * [Bool](bool.md)
-  * [Null](null.md)
-  * [List](list.md)
-  * [Map](map.md)
-  * [Enum](enum.md)
-  * [Range](range.md)
-  * [Function](func.md)
-  * [Closure](closure.md)
-  * [Class](class.md)
-  * [Control Flow](controlflow.md)
-  * [Loops](loop.md)
-  * [Fibers](fiber.md)
+  * [Syntax](guide/syntax.md)
+  * [Operators](guide/operators.md)
+  * [Types](guide/types.md)
+  * [Object](guide/object.md)
+  * [Int](guide/int.md)
+  * [Float](guide/float.md)
+  * [String](guide/string.md)
+  * [Bool](guide/bool.md)
+  * [Null](guide/null.md)
+  * [List](guide/list.md)
+  * [Map](guide/map.md)
+  * [Enum](guide/enum.md)
+  * [Range](guide/range.md)
+  * [Function](guide/func.md)
+  * [Closure](guide/closure.md)
+  * [Class](guide/class.md)
+  * [Control Flow](guide/controlflow.md)
+  * [Loops](guide/loop.md)
+  * [Fibers](guide/fiber.md)
   
 * OPTIONALS
 
-  * [System class](system.md)
-  * [Math class](math.md)
-  * [File class](file.md)
-  * [ENV class](env.md)
+  * [System class](guide/system.md)
+  * [Math class](guide/math.md)
+  * [File class](guide/file.md)
+  * [ENV class](guide/env.md)
 
 * ADVANCED
 
-  * [Embedding](embedding.md)
-  * [Extending](extending.md)
-  * [Introspection](introspection.md)
-  * [Unit test](unittest.md)
-  * [Contributing](contrib.md)
+  * [Embedding](guide/embedding.md)
+  * [Extending](guide/extending.md)
+  * [Introspection](guide/introspection.md)
+  * [Unit test](guide/unittest.md)
+  * [Contributing](guide/contrib.md)
 
 
 
