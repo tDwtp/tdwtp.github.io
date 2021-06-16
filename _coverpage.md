@@ -4,9 +4,4 @@
 
 # tDwtp's GitHub-Pages collection
 
-[/Gravity/# documentation](/gravity/#)
-[/Gravity/#/ documentation](/gravity/#/)
-[/Gravity/ documentation](/gravity/)
-[Gravity/ documentation](gravity/)
-[/Gravity documentation](/gravity)
-[Gravity documentation](gravity)
+[Gravity Documentation](/gravity/)
