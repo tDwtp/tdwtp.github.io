@@ -1,3 +1,0 @@
-- [Guide](/gravity/guide/)
-- [C API](/gravity/capi/)
-- [Gravity API](/gravity/gapi/)
