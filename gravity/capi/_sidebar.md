@@ -1,4 +1,5 @@
-# [COMMONLY USED](/capi/#commonly-used)
+
+# [COMMONLY USED](/capi/#commonly-used-headers)
 * [`runtime/gravity_vm.h`](/capi/runtime/gravity_vm.md)
 * [`runtime/gravity_vmmacros.h`](/capi/runtime/gravity_vmmacros.md)
 * [`shared/gravity_value.h`](/capi/shared/gravity_value.md)
@@ -8,7 +9,7 @@
 * [`shared/gravity_delegate.h`](/capi/shared/gravity_delegate.md)
 * [`utils/gravity_utils.h`](/capi/utils/gravity_utils.md)
 
-# [BY FILE](/capi/#by-file)
+# [BY FILE](/capi/#list-of-files-and-directories)
 * [`compiler`](/capi/compiler.md)
   * [`debug_macros.h`](/capi/compiler/debug_macros.md)
   * [`gravity_ast.h`](/capi/compiler/gravity_ast.md)
