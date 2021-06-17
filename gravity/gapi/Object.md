@@ -7,41 +7,29 @@
 
 ## Properties
 
-```swift
-class
-```
+### `class`
+*undocumented*
 
-```swift
-meta
-```
+### `meta`
+*undocumented*
 
 ## Methods
 
-```swift
-bind()
-```
+### `bind()`
+*undocumented*
 
-```swift
-unbind()
-```
+### `unbind()`
+*undocumented*
 
-```swift
-clone()
-```
+### `clone()`
+*undocumented*
 
-```swift
-introspect(extended:Bool, scan_hierarchy:Bool)
-```
+### `introspect(extended:Bool, scan_hierarchy:Bool)`
 
-```swift
-methods(extended:Bool, scan_hierarchy:Bool)
-```
+### `methods(extended:Bool, scan_hierarchy:Bool)`
 
-```swift
-properties(extended:Bool, scan_hierarchy:Bool)
-```
+### `properties(extended:Bool, scan_hierarchy:Bool)`
 
-```swift
-respondTo()
-```
+### `respondTo()`
+*undocumented*
 
