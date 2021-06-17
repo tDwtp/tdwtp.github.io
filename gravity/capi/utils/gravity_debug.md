@@ -1,4 +1,4 @@
-
+# `gravity_debug.h`
 
 ## `opcode_constname`
 ```c
@@ -18,7 +18,7 @@ const char *opcode_name (opcode_t op);
 ```
 Returns the name of a given opcode.
 <dl>
-<dt>`op` *([opcode_t](/shared/graity_opcode.md#opcode_t))*
+<dt><markdown>`op` *([opcode_t](/shared/graity_opcode.md#opcode_t))*
 <dd>opcode to be translated
 </dl>
 
@@ -28,15 +28,15 @@ See [opcode_t](/shared/graity_opcode.md#opcode_t) for more details
 ## `gravity_disassemble`
 `const char *gravity_disassemble (gravity_vm *vm, gravity_function_t *f, const char *bcode, uint32_t blen, bool deserialize);`
 <dl>
-<dt>`vm` *([gravity_vm](/runtime/graity_vm.md#vm))*
+<dt><markdown>`vm` *([gravity_vm](/runtime/graity_vm.md#vm))*
 <dd>Source of constants when dumping code.
-<dt>`bcode` *(`const char*`)*
+<dt><markdown>`bcode` *(`const char*`)*
 <dd>A serialized string of ascii-hexadecimal digits as used in the json format for compiled code. 
 Otherwise an uint32_t array containing the plain bytecode.
-<dt>`blen` *(`uint32_t`)*
+<dt><markdown>`blen` *(`uint32_t`)*
 <dd>char-count of `bcode` in serialized form or the instruction-count if `bcode` is an uint32_t array of instructions.
-<dt>`deserialize` *(`bool`)*
-<dd>`true` if bcode is a string of ascii-hexadecimals as used in the json format for compiled code.  
+<dt><markdown>`deserialize` *(`bool`)*
+<dd><markdown>`true` if bcode is a string of ascii-hexadecimals as used in the json format for compiled code.  
 `false` if bytecode is already an uint32_t array containing the palin bytecode.
 </dl>
 
