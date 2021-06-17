@@ -1,4 +1,4 @@
-# `gravity_debug.h`
+# `gravity_debug.h` <!-- {docsify ignore} -->
 
 ## `opcode_constname`
 ```c
@@ -19,8 +19,6 @@ Returns the name of a given opcode.
 `op` *([opcode_t](/shared/graity_opcode.md#opcode_t))*
 : opcode to be translated
 
-
-See [opcode_t](/shared/graity_opcode.md#opcode_t) for more details
 
 ## `gravity_disassemble`
 ```c
