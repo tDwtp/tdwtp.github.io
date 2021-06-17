@@ -1,1 +1,1 @@
-# `gravity_selegate.h`
+# `gravity_delegate.h`
