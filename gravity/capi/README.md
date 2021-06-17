@@ -3,7 +3,7 @@
 This is a reference documentation of the C API. For a tutorial on how to extend
 or embed Gravity, visit the [Guide](/guide/).
 
-## Commonly used headders
+## Commonly used headers
 
 * [`runtime/gravity_vm.h`](/capi/runtime/gravity_vm.md)
 * [`runtime/gravity_vmmacros.h`](/capi/runtime/gravity_vmmacros.md)
