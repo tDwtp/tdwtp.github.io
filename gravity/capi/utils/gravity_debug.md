@@ -17,16 +17,17 @@ See [`CPOOL_VALUE_*`](/shared/gravity_value.md#CPOOL) for a list of possible val
 const char *opcode_name (opcode_t op);
 ```
 Returns the name of a given opcode.
-<dl>
-<dt><markdown>`op` *([opcode_t](/shared/graity_opcode.md#opcode_t))*
-<dd>opcode to be translated
-</dl>
+
+`op` *([opcode_t](/shared/graity_opcode.md#opcode_t))*
+: opcode to be translated
 
 
 See [opcode_t](/shared/graity_opcode.md#opcode_t) for more details
 
 ## `gravity_disassemble`
-`const char *gravity_disassemble (gravity_vm *vm, gravity_function_t *f, const char *bcode, uint32_t blen, bool deserialize);`
+```c
+const char *gravity_disassemble (gravity_vm *vm, gravity_function_t *f, const char *bcode, uint32_t blen, bool deserialize);
+```
 <dl>
 <dt><markdown>`vm` *([gravity_vm](/runtime/graity_vm.md#vm))*
 <dd>Source of constants when dumping code.
