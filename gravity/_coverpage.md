@@ -5,6 +5,6 @@
 # Gravity <small>0.8.2</small>
 
 [GitHub](https://github.com/marcobambini/gravity)
-[Get Started](/gravity/guide/)
-[Gravity API](/gravity/gapi/)
-[C API](/gravity/capi/)
+[Get Started](/guide/)
+[Gravity API](/gapi/)
+[C API](/capi/)

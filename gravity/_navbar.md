@@ -1,3 +1,3 @@
-- [Guide](/gravity/guide/)
-- [C API](/gravity/capi/)
-- [Gravity API](/gravity/gapi/)
+- [Guide](/guide/)
+- [C API](/capi/)
+- [Gravity API](/gapi/)
