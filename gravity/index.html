@@ -26,7 +26,7 @@
       markdown: {
         renderer: {
           paragraph(text) { // based on https://github.com/markedjs/marked/issues/254#issuecomment-60962427
-            var dl_test = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/g;
+            var dl_test = /(^|\n\n*)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/g;
             var dl_fill = "<dt>$2</dt><dd>$5</dd>";
             
             if (!text.match(dl_test))
