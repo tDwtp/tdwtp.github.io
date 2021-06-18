@@ -26,14 +26,14 @@
       markdown: {
         renderer: {
           paragraph(text) {
+            var dlCount = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
             var dlTest = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
-            var dl = "\n\n<dl><dt>$2</dt><dd>$5</dd></dl>\n\n";
+            var dl = "<dt>$2</dt><dd>$5</dd>";
             
             console.log(text.match(dlTest));
             
-            
             return text.match(dlTest) ?
-              text.replace(dlTest, dl) :
+              "\n\n<dl>" + text.replace(dlTest, dl) + "</dl>\n\n":
               '<p>' + text + '</p>\n';
           }
         }
