@@ -31,14 +31,11 @@
             
             if (!text.match(dl_test))
               return '<p>' + text + '</p>\n';
-            var n = 0;
-            while (text.match(dl_test)) {
-              console.log(++n);
-              console.log(text);
-              console.log(text.match(dl_test));
+            
+            return '\n\n<dl>' + text.replace(dl_test, dl_fill) + '</dl>\n\n';
+            /*while (text.match(dl_test))
               text = text.replace(dl_test, dl_fill);
-            }
-            return '\n\n<dl>' + text + '</dl>\n\n';
+            return '\n\n<dl>' + text + '</dl>\n\n';*/
           }
         }
       },
