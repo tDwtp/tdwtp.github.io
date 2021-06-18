@@ -13,6 +13,41 @@ Functions to help look into bytecode (serialized or not).
 - [`gravity_disassemble`](/capi/utils/gravity_debug.md#gravity_disassemble)
 
 ## [`gravity_json.h`](utils/gravity_json.md)
+A simple JSON interface used within Gravity.
+- [`json_opt_mask` (`enum`)](/capi/utils/gravity_json.md#json_opt_mask)
+- [`json_type` (`enum`)](/capi/utils/gravity_json.md#json_type)
+- [`json_settings` (`struct`)](/capi/utils/gravity_json.md#json_settings)
+- [`json_value` (`struct`)](/capi/utils/gravity_json.md#json_value)
+- [`json_t` (`struct`)](/capi/utils/gravity_json.md#json_t)
+
+- [`json_new`](/capi/utils/gravity_json.md#json_new)
+- [`json_free`](/capi/utils/gravity_json.md#json_free)
+
+- [`json_begin_array`](/capi/utils/gravity_json.md#json_begin_array)
+- [`json_begin_object`](/capi/utils/gravity_json.md#json_begin_object)
+- [`json_end_array`](/capi/utils/gravity_json.md#json_end_array)
+- [`json_end_object`](/capi/utils/gravity_json.md#json_end_object)
+
+- [`json_add_bool`](/capi/utils/gravity_json.md#json_add_bool)
+- [`json_add_cstring`](/capi/utils/gravity_json.md#json_add_cstring)
+- [`json_add_double`](/capi/utils/gravity_json.md#json_add_double)
+- [`json_add_int`](/capi/utils/gravity_json.md#json_add_int)
+- [`json_add_null`](/capi/utils/gravity_json.md#json_add_null)
+- [`json_add_string`](/capi/utils/gravity_json.md#json_add_string)
+- [`json_get_label`](/capi/utils/gravity_json.md#json_get_label)
+- [`json_set_label`](/capi/utils/gravity_json.md#json_set_label)
+
+- [`json_buffer`](/capi/utils/gravity_json.md#json_buffer)
+- [`json_write_file`](/capi/utils/gravity_json.md#json_write_file)
+
+- [`json_clear_option`](/capi/utils/gravity_json.md#json_clear_option)
+- [`json_get_options`](/capi/utils/gravity_json.md#json_get_options)
+- [`json_option_isset`](/capi/utils/gravity_json.md#json_option_isset)
+- [`json_parse`](/capi/utils/gravity_json.md#json_parse)
+- [`json_parse_ex`](/capi/utils/gravity_json.md#json_parse_ex)
+- [`json_set_option`](/capi/utils/gravity_json.md#json_set_option)
+- [`json_value_free`](/capi/utils/gravity_json.md#json_value_free)
+- [`json_value_free_ex`](/capi/utils/gravity_json.md#json_value_free_ex)
 
 ## [`gravity_utils.h`](utils/gravity_utils.md)
 This is a compendium for some utilities commonly used for interactions with or

@@ -3,15 +3,20 @@
 
 ## Types
 
-### `json_opt_mask` (`enum`)
+### `json_opt_mask`
+`enum`
 
-### `json_type` (`enum`)
+### `json_type`
+`enum`
 
-### `json_settings` (`struct`)
+### `json_settings`
+`struct`
 
-### `json_value` (`struct`)
+### `json_value`
+`struct`
 
-### `json_t` (`struct`)
+### `json_t`
+`struct`
 
 ## Functions
 
