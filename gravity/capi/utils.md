@@ -61,10 +61,12 @@ Strings, their UTF-8 encoding and parsing strings to numbers (octal, decimal
 and hexadecimals)  
 Time-functions and an simple `ceil(n^2)` function is provided as well.
 
-- Time
-  - [`nanotime`](/capi/utils/gravity_utils.md#nanotime)
-  - [`microtime`](/capi/utils/gravity_utils.md#microtime)
-  - [`millitime`](/capi/utils/gravity_utils.md#millitime)
+- Directory
+  - [`directory_create`](/capi/utils/gravity_utils.md#directory_create)
+  - [`directory_init`](/capi/utils/gravity_utils.md#directory_init)
+  - [`directory_read`](/capi/utils/gravity_utils.md#directory_read)
+  - [`directory_read_extend`](/capi/utils/gravity_utils.md#directory_read_extend)
+  - [`is_directory`](/capi/utils/gravity_utils.md#is_directory)
 - File
   - [`file_size`](/capi/utils/gravity_utils.md#file_size)
   - [`file_exists`](/capi/utils/gravity_utils.md#file_exists)
@@ -73,12 +75,6 @@ Time-functions and an simple `ceil(n^2)` function is provided as well.
   - [`file_write`](/capi/utils/gravity_utils.md#file_write)
   - [`file_buildpath`](/capi/utils/gravity_utils.md#file_buildpath)
   - [`file_name_frompath`](/capi/utils/gravity_utils.md#file_name_frompath)
-- Directory
-  - [`directory_create`](/capi/utils/gravity_utils.md#directory_create)
-  - [`directory_init`](/capi/utils/gravity_utils.md#directory_init)
-  - [`directory_read`](/capi/utils/gravity_utils.md#directory_read)
-  - [`directory_read_extend`](/capi/utils/gravity_utils.md#directory_read_extend)
-  - [`is_directory`](/capi/utils/gravity_utils.md#is_directory)
 - Math and Numbers
   - [`number_from_hex`](/capi/utils/gravity_utils.md#number_from_hex)
   - [`number_from_oct`](/capi/utils/gravity_utils.md#number_from_oct)
@@ -94,6 +90,10 @@ Time-functions and an simple `ceil(n^2)` function is provided as well.
   - [`string_size`](/capi/utils/gravity_utils.md#string_size)
   - [`string_strnstr`](/capi/utils/gravity_utils.md#string_strnstr)
   - [`string_replace`](/capi/utils/gravity_utils.md#string_replace)
+- Time
+  - [`nanotime`](/capi/utils/gravity_utils.md#nanotime)
+  - [`microtime`](/capi/utils/gravity_utils.md#microtime)
+  - [`millitime`](/capi/utils/gravity_utils.md#millitime)
 - UTF-8
   - [`utf8_charbytes`](/capi/utils/gravity_utils.md#utf8_charbytes)
   - [`utf8_nbytes`](/capi/utils/gravity_utils.md#utf8_nbytes)
