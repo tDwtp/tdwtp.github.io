@@ -1,16 +1,16 @@
 # `utils`
 Utility functions to help developers with some tasks.
 
-* [gravity_debug](/utils/gravity_debug.md)
-* [gravity_json](/utils/gravity_json.md)
-* [gravity_utils](/utils/gravity_utils.md)
+- [gravity_debug](/capi/utils/gravity_debug.md)
+- [gravity_json](/capi/utils/gravity_json.md)
+- [gravity_utils](/capi/utils/gravity_utils.md)
 
 ## [`gravity_debug.h`](/utils/gravity_debug.md)
 Functions to help look into bytecode (serialized or not).
 
-* [`opcode_constname`](/utils/gravity_debug.md#opcode_constname)
-* [`opcode_name`](/utils/gravity_debug.md#opcode_name)
-* [`gravity_disassemble`](/utils/gravity_debug.md#gravity_disassemble)
+- [`opcode_constname`](/capi/utils/gravity_debug.md#opcode_constname)
+- [`opcode_name`](/capi/utils/gravity_debug.md#opcode_name)
+- [`gravity_disassemble`](/capi/utils/gravity_debug.md#gravity_disassemble)
 
 ## [`gravity_json.h`](utils/gravity_json.md)
 
