@@ -25,23 +25,13 @@
       repo: 'https://github.com/tdwtp/tdwtp.github.io',
       markdown: {
         renderer: {
-          paragraph: function (text) {
+          paragraph(text) {
             var dlTest = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/
+            var dl = "\n\n<dl><dt>$2</dt><dd>$5</dd></dl>\n\n';
             
-            var dl = '\n\n' +
-              '<dl>' +
-              '<dt><p>$2</p></dt>' +
-              '<dd><p>$5</p></dd>' +
-              '</dl>' +
-              '\n\n';
-            
-            if (text.match(dlTest)) {
-              text = text.replace(dlTest, dl);
-              return text;
-            } else {
-              return '<p>' + text + '</p>\n';
-            }
-          
+            return text.match(dlTest) ?
+              text.replace(dlTest, dl) :
+              '<p>' + text + '</p>\n';
           }
         }
       },
