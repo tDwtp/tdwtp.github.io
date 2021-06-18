@@ -29,6 +29,9 @@
             var dlTest = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
             var dl = "<dt>$2</dt><dd>$5</dd>";
             
+            if (text.match(dlTest)) {
+              console.log("\n\n<dl>" + text.replace(dlTest, dl) + "</dl>\n\n");
+            }
             return text.match(dlTest) ?
               "\n\n<dl>" + text.replace(dlTest, dl) + "</dl>\n\n":
               '<p>' + text + '</p>\n';
