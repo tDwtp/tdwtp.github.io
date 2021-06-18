@@ -19,8 +19,7 @@ Returns the name of a given opcode.
 
 |   |   |
 |---|---|
-| `op` *[`opcode_t`](/shared/graity_opcode.md#opcode_t)* | 
-opcode to be translated |
+| `op` *[`opcode_t`](/shared/graity_opcode.md#opcode_t)* | opcode to be translated |
 
 
 ## `gravity_disassemble`
