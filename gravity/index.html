@@ -30,7 +30,7 @@
             var dl = "<dt>$2</dt><dd>$5</dd>";
             
             return text.match(dl_test) ?
-              "\n\n<dl>" + text.replace(dlTest, dl) + "</dl>\n\n":
+              "\n\n<dl>" + text.replace(dl_test, dl) + "</dl>\n\n":
               '<p>' + text + '</p>\n';
           }
         }
