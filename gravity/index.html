@@ -34,6 +34,8 @@
             var n = 0;
             while (text.match(dl_test)) {
               console.log(++n);
+              console.log(text);
+              console.log(text.match(dl_test));
               text = text.replace(dl_test, dl_fill);
             }
             return '\n\n<dl>' + text + '</dl>\n\n';
