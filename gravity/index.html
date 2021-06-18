@@ -27,12 +27,12 @@
         renderer: {
           paragraph(text) { // based on https://github.com/markedjs/marked/issues/254#issuecomment-60962427
             var dl_test = /(^|\n\n*)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/g;
-            var dl_fill = "<dt>$2<dd>$5";
+            var dl_fill = "</dd><dt>$2</dt><dd>$5";
             
             if (!text.match(dl_test))
               return '<p>' + text + '</p>\n';
             
-            return '\n\n<dl>' + text.replace(dl_test, dl_fill) + '</dl>\n\n';
+            return '\n\n<dl>' + text.replace(dl_test, dl_fill).substring(5) + '</dd></dl>\n\n';
           }
         }
       },
