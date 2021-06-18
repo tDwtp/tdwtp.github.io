@@ -26,11 +26,11 @@
       markdown: {
         renderer: {
           paragraph(text) { // based on https://github.com/markedjs/marked/issues/254#issuecomment-60962427
-            var dl_test = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
-            var dl = "<dt>$2</dt><dd>$5</dd>";
+            var dl_test = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/g;
+            var dl_fill = "<dt>$2</dt><dd>$5</dd>";
             
             return text.match(dl_test) ?
-              "\n\n<dl>" + text.replace(dl_test, dl) + "</dl>\n\n":
+              "\n\n<dl>" + text.replaceAll(dl_test, dl_fill) + "</dl>\n\n":
               '<p>' + text + '</p>\n';
           }
         }
