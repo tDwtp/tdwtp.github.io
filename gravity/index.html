@@ -26,7 +26,6 @@
       markdown: {
         renderer: {
           paragraph(text) {
-            var dlCount = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
             var dlTest = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
             var dl = "<dt>$2</dt><dd>$5</dd>";
             
