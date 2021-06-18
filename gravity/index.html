@@ -27,7 +27,7 @@
         renderer: {
           paragraph(text) {
             var dlTest = /(^|\n\n+)(\S.+)(\n\:(\s{4,}|\t))(\S.+)/;
-            var dl = "\n\n<dl><dt>$2</dt><dd>$5</dd></dl>\n\n';
+            var dl = "\n\n<dl><dt>$2</dt><dd>$5</dd></dl>\n\n";
             
             console.log(text.match(dlTest));
             
